@@ -1,0 +1,73 @@
+
+.progress-item-inner{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #882DF1;
+}
+
+
+.progress-item-container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #882DF1;
+}
+
+.progress-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.progress-line{
+    height:2px;
+    width:30%;
+    background-color: #882DF1;
+    margin-top: -50px;
+}
+
+.flex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-item-text{
+    display:block;
+
+}
+
+@media screen and (max-width: 768px) {
+    .progress-item-text{
+        display:none;
+    }
+    .progress-line{
+        margin-top:0;
+    }
+    .hide-in-phone{
+        display:none;
+    }
+    
+}
+
+
+.signup-button{
+    background-color: #0E8C2A;
+    height:50px;
+    width:100%;
+    border-radius:10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.signup-button:hover{
+    transition: all 0.5s ease;
+    background-color: #882DF1;
+    box-shadow: 0 0 20px -5px #882DF1;
+
+}
